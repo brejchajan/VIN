@@ -3,3 +3,4 @@ mandelbrot_set/Makefile
 mandelbrot_set/main.o
 mandelbrot_set/qrc_qml.cpp
 mandelbrot_set/qrc_qml.o
+mandelbrot_set/camera_test.pro.user
