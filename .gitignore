@@ -1,6 +1,6 @@
-mandelbrot_set/.qmake.stash
-mandelbrot_set/Makefile
-mandelbrot_set/main.o
-mandelbrot_set/qrc_qml.cpp
-mandelbrot_set/qrc_qml.o
-mandelbrot_set/camera_test.pro.user
+.qmake.stash
+Makefile
+main.o
+qrc_qml.cpp
+qrc_qml.o
+camera_test.pro.user
