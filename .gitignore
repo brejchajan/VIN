@@ -4,3 +4,4 @@ main.o
 qrc_qml.cpp
 qrc_qml.o
 camera_test.pro.user
+build*
