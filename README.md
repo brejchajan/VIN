@@ -58,7 +58,7 @@ Please, follow the steps below:
 
 ##Running the code 
 Clone this GIT repository into you computer: 
-'''git clone git@github.com:brejchajan/VIN.git <myprojects/VIN>'''
+```git clone git@github.com:brejchajan/VIN.git <myprojects/VIN>```
 In case you do not understand GIT, refer to [git-scm.com](http://git-scm.com/downloads).
 
 -	In QT Creator: file > open file or project VIN/<project name>/<project_file>.pro
