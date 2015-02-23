@@ -24,6 +24,7 @@ import static android.opengl.GLES20.*;
 
 /**
  * Created by janbrejcha on 10.02.15.
+ * This class does the actual rendering of the camera stream onto the CameraGLSurfaceView.
  */
 public class CameraRenderer implements GLSurfaceView.Renderer {
 
