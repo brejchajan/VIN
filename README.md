@@ -31,6 +31,49 @@ browser with a custom fractal.
 Based on the [Derivative](derivative/README.md) skeleton create an laplacian 
 edge detector which detects edges on live camera stream of the tablet.
 
+### Setup
+In order to be able to open and run these skeletons on NVIDIA SHIELD Tablet, 
+you need two things. 
+
+- Install the Tegra Android Development Kit from NVIDIA - [TADP](https://developer.nvidia.com/tegra-android-development-pack). To be able to do this, you need to register at NVIDIA (on the
+same page). During the registration process you need to enroll by NVIDIA for 
+NVIDIA GameWorks program (free, done in a few minutes). 
+After NVIDIA sent you the verification email that you are enrolled, you can
+download the TADP. 
+- The root of the TADP will be called NVPACK in following text. 
+
+- Install the [QT 5.4](http://www.qt.io/download/) Community Version. This should
+be as easy as download the installer and simply install on your computer.
+
+- After installation of QT 5.4 few post-installation settings needs to be done.
+Please, follow the steps below:
+
+1) Open the Qt Creator application. 
+2) QtCreator > Settings > Android
+- set JDK path for Java Development Kit. If you do not have [one](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html), install it first.
+- set path for Android SDK: NVPACK/android-sdk-<system>
+- set path for Android NDK: NVPACK/android-ndk-r10c
+- set executable ANT file: NVPACK/apache-ant-1.8.2/bin/ant
+
+##Running the code 
+Clone this GIT repository into you computer: 
+'''git clone git@github.com:brejchajan/VIN.git <myprojects/VIN>'''
+In case you do not understand GIT, refer to [git-scm.com](http://git-scm.com/downloads).
+
+-	In QT Creator: file > open file or project VIN/<project name>/<project_file>.pro
+	e.g. VIN/mandelbrot_set/camera_test.pro
+-	Configure Project: tick Desktop Qt 5.4.0 and Android for armeabi-v7a (GCC 4.9, QT 5.4.0)
+-	In Projects in left menu pane set build directory so that does not contain diacritics
+	(if you have for instance czech version of QT)
+-	In Build Android APK set Android Build SDK: android-21 
+-	*Source code of the whole application is in Resources > qml.qrc > / > main.qml*.
+-	Attach your device to the computer.
+-	Over the "run" button on the left bottom choose Android.
+-	Click "run".
+-	Choose your device from the popup message.
+-	The application should start.
+
+
 ##Examples 
 Also more advanced examples are prepared for you as a starting point for your own 
 projects. The examples are written in Android Studio in Android Java with OpenGLES 3.1.
