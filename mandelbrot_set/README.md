@@ -107,7 +107,7 @@ Rectangle{
 }
 ```
 
-There is a Rectangle, woth ShaderEffect. The Image element is simple texture image
+There is a Rectangle, with ShaderEffect. The Image element is simple texture image
 for us to be able to color the fractal. It is a simple 1px height stripe with color
 scale and can be seen in Resources > qml.qrc > / > fractal_coloring.png.
 
