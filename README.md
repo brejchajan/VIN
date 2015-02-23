@@ -49,7 +49,8 @@ be as easy as download the installer and simply install on your computer.
 Please, follow the steps below:
 
 1) Open the Qt Creator application. 
-2) QtCreator > Settings > Android
+
+2) QtCreator > Settings > Android.
 - set JDK path for Java Development Kit. If you do not have [one](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html), install it first.
 - set path for Android SDK: NVPACK/android-sdk-<system>
 - set path for Android NDK: NVPACK/android-ndk-r10c
