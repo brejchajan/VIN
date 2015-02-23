@@ -8,6 +8,9 @@ smart devices like iOS or Android phones and tablets.
 
 Introduction for each skeleton is written in its own README file.
 
+##Acknowledgements
+We gratefully acknowledge the support of NVIDIA Corporation with the donation of the SHIELD tablets for this research.
+
 ##Skeletons
 The sceletons are simple projects which should be improved as a homework in the VIN
 course. The detailed tak assignment will be placed in the README file of each project. 
