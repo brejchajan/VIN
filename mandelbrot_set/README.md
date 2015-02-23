@@ -133,7 +133,7 @@ The GLSL language itself is very similar to C language. If you do not completely
 understand its principles, please refer to some OpenGL tutorial, e.g.: [nehe.gamedev.net](http://nehe.gamedev.net/article/glsl_an_introduction/25007/).
 
 
-##Task assignment
+##Task assignment -- Fractal Browser
 In this task you shall improve the code of this skeleton so the user can zoom in and 
 out the fractal and pan (scroll) with the finger. It should be easy - it is needed
 to use the PinchArea inside the Recangle, assign an id attribute to the rectangle
