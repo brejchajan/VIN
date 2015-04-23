@@ -29,7 +29,7 @@ ApplicationWindow {
 }
 ```
 
-This element represents the main application window. It can of cource contain
+This element represents the main application window. It can of course contain
 other entities which can serve as a source, or which can be just presented 
 on the main window. Each element can have some attributes like color, width, height,
 etc., like this
