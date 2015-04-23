@@ -75,7 +75,7 @@ and the pixel next to it on the right side and apply the values of the filter.
 
 ###The task
 To implement the Laplacian Edge detector minor changes to this example must be 
-introduced. Try to figure out, how to implement the filtration with simple laplacian kernel
+introduced. Try to figure out, how to implement the filtration with simple laplacian kernel:
 
 ```
 0		-1/4		0
