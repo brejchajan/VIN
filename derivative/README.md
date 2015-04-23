@@ -52,7 +52,8 @@ Now we will observe how the filtration is implemented inside a fragment shader.
 The simple fragment shader that calculates a derivative of the image in this example
 is shown below:
 
-```uniform sampler2D tex;
+```
+uniform sampler2D tex;
 varying highp vec2 qt_TexCoord0;
 uniform highp vec2 kernel;
 uniform highp float texWidth;
