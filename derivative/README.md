@@ -18,7 +18,7 @@ introduction: [Mandelbrot Set](../mandelbrot_set/README.md)
 
 ###Image Filtration
 The core of the edge detection is image filtration. This is done as convolution of 
-the image with some filtration kernel. The convolution is simple weighted average
+the image with some filtration kernel. The convolution is simply weighted average
 of the pixels in some area, where the weights are given by the filtration kernel. 
 Formally the convolution can be written as follows:
 
@@ -51,6 +51,7 @@ The derivative of the image can be simply calculated with filter like this:
 Now we will observe how the filtration is implemented inside a fragment shader.
 The simple fragment shader that calculates a derivative of the image in this example
 is shown below:
+
 ```uniform sampler2D tex;
 varying highp vec2 qt_TexCoord0;
 uniform highp vec2 kernel;
@@ -61,7 +62,8 @@ void main() {
 	highp vec3 res1 = texture2D(tex, vec2(qt_TexCoord0.x + dx, qt_TexCoord0.y)).rgb;
 	highp vec3 res = res0 * kernel.x + res1 * kernel.y;
 	gl_FragColor = vec4(res + 0.5, 1.0);
-}```
+}
+```
 
 The kernel is here vec2(-1, 1). The texture containing current photo from the 
 camera stream is called tex, and the coordinate of current pixel is stored in vec2 qt_TexCoord0.
